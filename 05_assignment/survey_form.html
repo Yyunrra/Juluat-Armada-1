@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1>Survey Form</h1>
+    </header>
+
+    <form action="/submit_form" method="POST">
+        <section>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name">
+
+            <br><br>
+
+            <label for="email-address">Email Adderess:</label>
+            <input type="text" id="email-address" name="email-address">
+        </section>
+
+        <section>
+            <h4>How satisfied are you with our service?</h4>
+
+            <input type="radio" id="very-satisfied" name="service-rating" value="very-satisfied">
+            <label for="very-satisfied">Very Satisfied</label>
+            <br>
+
+            <input type="radio" id="satisfied" name="service-rating" value="satisfied">
+            <label for="satisfied">Satisfied</label>
+            <br>
+
+            <input type="radio" id="neutral" name="service-rating" value="neutral">
+            <label for="neutral">Neutral</label>
+            <br>
+
+            <input type="radio" id="dissatisfied" name="service-rating" value="dissatisfied">
+            <label for="dissatisfied">Dissatisfied</label>
+            <br>
+
+            <input type="radio" id="very-dissatisfied" name="service-rating" value="very-dissatisfied">
+            <label for="very-dissatisfied">Very Dissatisfied</label>
+        </section>
+
+        <section>
+            <h4>What features do you value most?</h4>
+
+            <input type="checkbox" id="ease-of-use" name="valued-features">
+            <label for="ease-of-use">Ease of Use</label>
+            <br>
+
+            <input type="checkbox" id="design" name="valued-features">
+            <label for="design">Design</label>
+            <br>
+
+            <input type="checkbox" id="customer-support" name="valued-features">
+            <label for="customer-suport">Customer Support</label>
+            <br>
+        </section>
+
+        <section>
+            <br>
+            <label for="describes-you"><strong>What best describes you?</strong></label>
+
+            <select id="describes-you" name="you">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="hobbyist">Hobbyist</option>
+                <option value="other">Other</option>
+            </select>
+        </section>
+
+        <section>
+            <br>
+            <label for="feedback"><strong>Additional Feedback:</strong></label>
+            <br>
+            <textarea id="feedback" name="feedback"></textarea>
+        </section>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

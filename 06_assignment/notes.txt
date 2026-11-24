@@ -1,0 +1,5 @@
+
+This assignment took me around an hour. The challenges I encountered were mostly related to making the table. I was so confused about why each row of the table looked really weird. After reviewing Sample Code 2 from the Practice Indentation Activity, I realized that my syntax was wrong. I used <th> for every part of the table. I also tried to copy the spacing of the contents of the table using <br> and extra spaces, but it didn't work.
+
+
+During the validation of my HTML using W3C, I was really confused by the warnings I received since, when looking at the Live Server output, I didn't see any problem. While fixing the warnings, I realized that when a heading level was skipped, the browser seemed to display it as the next heading level. For example, I used <h1> and then jumped to <h4>, but it appeared as <h2> in the output since there was no <h2> in the entire HTML file. I only figured this out today. I thought I could use any heading level I wanted

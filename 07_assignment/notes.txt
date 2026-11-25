@@ -1,0 +1,2 @@
+While styling my portfolio the problem I encountered was adding a style to a specific part of my portfolio, but it did not reflect on the web output. I solved this problem by trying to change the selector and it turns out that I was just styling the wrong part, and I have to directly style the child instead of the parent container.
+My most favorite styles to add are changing the background  color, then adding dashed borders and making them round corners.

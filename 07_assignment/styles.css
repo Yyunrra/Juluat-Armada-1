@@ -1,0 +1,159 @@
+body{
+    background: linear-gradient(#fcf8f5,#eb6f65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+main{
+    margin: 100px;
+}
+
+h1 {
+    color: #ef2863;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+h2 {
+    color: #eb6f65;
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+    line-height: 40px;
+}
+/* HEADER PART -----------------------------------------*/
+header{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#about-me{
+    border: dashed #f3a8af 5px;
+    border-radius: 30px;
+    padding: 50px 100px;
+    background-color: #fbeded;
+}
+
+#iris{
+    max-width: 300px;
+    border-radius: 30px;
+    border: solid 10px #7abf48;
+}
+
+
+nav > ul{
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+
+ul > li > a {
+    text-decoration: none;
+    color: #7abf48;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #ef2863;
+    font-size: 20px;
+}
+
+/* PROJECT /TABLE -----------------------------------------*/
+
+#projects{
+    margin-top: 50px;
+    border: dashed #f3a8af 5px;
+    border-radius: 30px;
+    padding: 50px 100px;
+    background-color: #fbeded;
+}
+
+
+
+th, td{
+    border: solid #7abf48 2px;
+    padding: 20px 30px;
+    text-align: center;
+    
+}
+
+
+/* FORM PART -----------------------------------------*/
+form{
+    margin: 0px 300px;
+    border: dashed #f3a8af 5px;
+    border-radius: 30px;
+    padding: 10px 100px;
+    background-color: #fbeded;
+}
+
+
+form>section{
+    margin-top: 10px;
+    padding: 20px 0px;
+    border-bottom: solid #7abf48 4px;
+    line-height: 30px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: solid #ef2863 2px;
+    border-radius: 5px;
+
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    border: solid 2px #ef2863;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+input[type="submit"] {
+    background-color: #ef2863;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 0px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+    
+}
+
+button {
+    width: 100%;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #7abf48;
+}
+
+/* FOOOOTER-----------------------------------------*/
+
+footer{
+    padding: 10px;
+    background-color: #fbeded;
+    margin-top: 100px;
+    text-align: center;
+    border-top: solid #ef2863 5px;
+    
+}
+
+#footer-text{
+    font-size: 10px;
+}

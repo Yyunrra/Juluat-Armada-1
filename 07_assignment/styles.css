@@ -34,14 +34,14 @@ header{
     text-align: center;
 }
 
-#about-me{
+.about-me{
     border: dashed #f3a8af 5px;
     border-radius: 30px;
     padding: 50px 100px;
     background-color: #fbeded;
 }
 
-#iris{
+#my-photo{
     max-width: 300px;
     border-radius: 30px;
     border: solid 10px #7abf48;
@@ -58,7 +58,7 @@ nav > ul{
 
 
 
-ul > li > a {
+a {
     text-decoration: none;
     color: #7abf48;
     font-weight: bold;
@@ -71,7 +71,7 @@ a:hover{
 
 /* PROJECT /TABLE -----------------------------------------*/
 
-#projects{
+.projects{
     margin-top: 50px;
     border: dashed #f3a8af 5px;
     border-radius: 30px;
@@ -91,7 +91,7 @@ th, td{
 
 /* FORM PART -----------------------------------------*/
 form{
-    margin: 0px 300px;
+    margin: 0px 250px;
     border: dashed #f3a8af 5px;
     border-radius: 30px;
     padding: 10px 100px;
@@ -99,12 +99,14 @@ form{
 }
 
 
-form>section{
+.new-line{
     margin-top: 10px;
     padding: 20px 0px;
     border-bottom: solid #7abf48 4px;
     line-height: 30px;
 }
+
+
 
 input[type="text"] {
     padding: 5px;
@@ -154,6 +156,6 @@ footer{
     
 }
 
-#footer-text{
+.footer-text{
     font-size: 10px;
 }

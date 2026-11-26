@@ -17,13 +17,13 @@
     </header>
 
     <main>
-        <section id="about-me">
+        <section class="about-me">
             <h2>About Me</h2>
-            <p>Hello,I am Iris <br>I am an Information Technology student interested in web development, UI/UX design. I enjoy incorporating creative ideas to my projects. I love colors.</p>
-            <img id="iris" src="muka.jpeg" alt="Photo of Iris Nahara" >
+            <p>Hello,I am an Information Technology student interested in web development, UI/UX design. I enjoy incorporating creative ideas to my projects. I love colors.</p>
+            <img id="my-photo" src="muka.jpeg" alt="Photo of Iris Nahara" >
         </section>
 
-        <section id="projects">
+        <section class="projects">
             <h2>My Projects</h2>
             <table>
                 <thead>
@@ -52,7 +52,7 @@
                     </tr>
                     <tr>
                         <td>Simple Barangay System Managment</td>
-                        <td>A website designed to allow users request documents, and allows the barangay to manage<br> their records better.</td>
+                        <td>A website designed to allow users request documents, and allows the barangay to ma their records better.</td>
                         <td>2025</td>
                     </tr>
                     <tr>
@@ -62,7 +62,7 @@
                     </tr>
                     <tr>
                         <td>Capstone Project</td>
-                        <td>Smart Energy Monitoring and Bill Prediction System(IoT) that allows users<br> to Monitor their electricity usage and estimate future consumption and bills.</td>
+                        <td>Smart Energy Monitoring and Bill Prediction System(IoT) that allows u to Monitor their electricity usage and estimate future consumption and bills.</td>
                         <td>2026</td>
                     </tr>
                 </tbody>
@@ -72,62 +72,52 @@
     </main>
 
     <form action="/submit_form" method="POST">
-        <section>
-            <br>
-            <br>
+        <section class="new-line">
+
             <h2 id="contact">Contact Me</h2>
             <label for="full-name">Full Name:</label>
             <input type="text" id="full-name" name="full-name">
 
-            <br><br>
 
             <label for="email-address">Email Adderess:</label>
             <input type="text" id="email-address" name="email-address">
+        
         </section>
 
-        <section>
+        <section class="new-line">
             <h3>How did you hear about this portfolio?</h3>
 
             <input type="radio" id="friend" name="mode" value="friend">
             <label for="friend">Friend</label>
-            <br>
 
             <input type="radio" id="socmed" name="mode" value="socmed">
             <label for="socmed">Social Media</label>
-            <br>
 
             <input type="radio" id="search-engine" name="mode" value="search-engine">
             <label for="search-engine">Search Engine</label>
-            <br>
 
             <input type="radio" id="other" name="mode" value="other">
             <label for="other">Other</label>
-            <br>
         </section>
 
-        <section>
+        <section class="new-line">
             <h3>Skill/Interest</h3>
 
             <input type="checkbox" id="web-dev" name="skills">
             <label for="web-dev">Web Development</label>
-            <br>
 
             <input type="checkbox" id="design" name="skills">
             <label for="design">Design</label>
-            <br>
 
             <input type="checkbox" id="photo" name="skills">
             <label for="photo">Photography</label>
-            <br>
         </section>
 
-        <section>
-            <br>
+        <section class="new-line">
             <h3><label for="textbox"><strong>Comments and Messages:</strong></label></h3>
-            <br>
             <textarea id="textbox" name="textbox"></textarea>
         </section>
-        <br>
+
         <button>
             <input type="submit" value="Submit">
         </button>
@@ -135,7 +125,7 @@
     </form>
 
     <footer>
-        <p id="footer-text">© Iris Nahara B. Juluat 2026</p>
+        <p class="footer-text">© Iris Nahara B. Juluat 2026</p>
     </footer>
     
 </body>

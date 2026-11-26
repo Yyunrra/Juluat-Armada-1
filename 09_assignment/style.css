@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: dodgerblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-bar, .main-content {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  background-color: lightcoral;
+  padding: 20px;
+  text-align: center;
+}
+
+/*MY CODEEEEEEEEEEESSS --------------*/
+header{
+    color: white;
+}
+
+body{
+
+    margin: 20px;
+    border: solid gray 2px;
+}
+
+
+.left-panel{
+    background-color: rgb(208, 212, 216);
+    padding: 20px;
+    width: 600px;
+    
+
+}
+
+.box{
+    border-radius: 5px;
+    padding: 30px;
+    color: white;
+    margin: 5px 0px;
+}
+
+footer{
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}

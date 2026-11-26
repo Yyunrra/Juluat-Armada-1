@@ -1,0 +1,1 @@
+This activity took me 15 minutes. I didn't faced any difficulties. This activity already provided the css code for flex, so all I have to do was change the spacing and colors, that's why I'm really confused.

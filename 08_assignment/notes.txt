@@ -1,0 +1,1 @@
+This activity only took me 10 minutes do. I just added the paddings and margins. The only part that requires the flexbox is the <main> tag. I did not face any challenges while doing this task. This task is actually the fastest and easiest activity in this course so far.
